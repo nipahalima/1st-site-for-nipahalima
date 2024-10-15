@@ -1,0 +1,59 @@
+
+/* common shared style */
+body{
+    // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+}
+/* nav related style */
+nav{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    
+}
+
+.nav-title{
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.text-primary{
+    color: rgb(243, 114, 8);
+}
+
+.btn-primary{
+    border-radius: 5px;
+    background: rgb(243, 114, 8);
+    border: 0;
+    color: white; 
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+
+}
+
+nav >ul{
+display: flex;
+align-items: center;
+
+}
+
+nav li{
+list-style: none;
+margin: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: grey;
+}
